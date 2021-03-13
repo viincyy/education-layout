@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+
+    <!-- FONT -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+	/>
+	<!-- MAIN CSS -->
+	<link rel="stylesheet" href="css/contact.css">
+	<link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <!-- HEADER -->
+    <header id="header" class="py-2">
+		<div class="container-fluid">
+		  <div class="row">
+			<div class="col-md-7 text-center text-md-left header-left mt-1">
+			  <i class="fa fa-phone"></i>
+			  <span class="mr-2">&#43;0374586530</span>
+			  <i class="fa fa-envelope"></i>
+			  <span>itdev.126@gmail.com</span>
+			</div>
+			<div
+			  class="col-md-5 text-center text-md-right header-right text-right mt-2 mt-md-0"
+			>
+			  <i class="fab fa-facebook-f"></i>
+			  <i class="fab fa-twitter"></i>
+			  <i class="fab fa-pinterest-p"></i>
+			  <i class="fab fa-linkedin-in"></i>
+			</div>
+		  </div>
+		</div>
+	  </header>
+  
+	  <!-- NAVBAR -->
+	  <nav class="navbar navbar-expand-md navbar-light">
+		<div class="container">
+		  <a
+			href="index.html"
+			class="navbar-brand text-center navbar-brand--logo"
+		  >
+			<h1 class="mb-0">
+			  <i class="fa fa-book"></i>
+			  INSTRUCTION
+			</h1>
+			<p class="mb-0">EDUCATION</p>
+		  </a>
+		  <button
+			class="navbar-toggler"
+			data-toggle="collapse"
+			data-target="#myMenu"
+			type="button"
+		  >
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="myMenu">
+			<ul class="navbar-nav navbar-nav--menu ml-auto">
+			  <li class="nav-item active">
+				<a class="nav-link" href="#">HOME</a>
+				<div class="nav-item__line"></div>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#">ABOUT</a>
+				<div class="nav-item__line"></div>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#">SERVICES</a>
+				<div class="nav-item__line"></div>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#">GALLERY</a>
+				<div class="nav-item__line"></div>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#">PAGES</a>
+				<div class="nav-item__line"></div>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="./contact.html">CONTACT</a>
+				<div class="nav-item__line"></div>
+			  </li>
+			</ul>
+		  </div>
+		</div>
+	  </nav>
+	<!--CONTACT CAROUSEL-->
+	<section class="contact-carousel"></section>	
+	<!--CONTACT US-->
+	<section class="container contact-section">
+		<div class="row">
+			<div class="col contact-title text-center">
+				<h1>CONTACT US</h1>
+				<span>When Climbing The Carrer Ladder</span>
+				<div class="contact-title__line welcome-title__line mx-auto mt-3 mb-3 mb-sm-5"></div>
+			</div>
+		</div>
+		<div class="row contact-content">
+			<div class="col-lg-5">
+			<div class=" contact-info">
+				<h3 class="text-white mb-4">Contact Info</h3>
+				<div class="contact-info__detail d-flex">
+					<div class="contact-info__detail__item">
+						<i class="fa fa-phone-volume"></i>
+					</div>
+					<h4>
+						Telephone<br>
+						<span>+1 (100)222-23-33</span>
+					</h4>
+					
+				</div>
+				<div class="contact-info__detail d-flex">
+					<div class="contact-info__detail__item">
+						<i class="fa fa-envelope"></i>
+					</div>
+					<h4>
+						Mail<br>
+						<span>itdev.126@gmail.com</span>
+					</h4>
+					
+				</div>
+				<div class="contact-info__detail d-flex">
+					<div class="contact-info__detail__item">
+						<i class="fa fa-map-marker"></i>
+					</div>
+					<h4>
+						Location<br>
+						<span>09 Oak Street</span>
+					</h4>
+					
+				</div>
+				<div class="contact-info__social">
+					<i class="fab fa-facebook-f contact-facebook"></i>
+					<i class="fab fa-twitter contact-twitter"></i>
+					<i class="fab fa-twitch contact-twitch"></i>
+				</div>
+			</div>
+			</div>
+			<div class="col-lg-7 contact-info__img">
+				
+			</div>
+		</div>
+		<div class="row contact-form mt-5">
+			<div class="col-lg">
+				<input type="text" class="form-control mb-3" name="Name" placeholder="Name">
+				<input type="email" class="form-control mb-3"  name="Email" placeholder="Email">
+				<input type="text" class="form-control mb-3" name="Phone" placeholder="Telephone">
+				<input type="text" class="form-control mb-3" name="Subject" placeholder="Subject">
+			</div>
+			<div class="col-lg">
+				<textarea rows="6" name="Message" class="form-control" placeholder="Message"></textarea>
+				<button class="btn btn-contact-submit btn-block py-3">SUBMIT</button>
+			</div>
+		</div>
+	</section>
+	<section class="contact-map">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d774846.4380734268!2d-74.36698725083623!3d40.65757268537224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2zVGjDoG5oIHBo4buRIE5ldyBZb3JrLCBUaeG7g3UgYmFuZyBOZXcgWW9yaw!5e0!3m2!1svi!2s!4v1518242791965"  frameborder="0" style="border:0" allowfullscreen></iframe>
+	</section>
+    <!-- FOOTER -->
+    <footer>
+		<div class="footer-detail">
+		  <div class="container">
+			<div class="row">
+			  <div class="col-md-4 footer__about-us mb-3 mb-md-0">
+				<h2>About Us</h2>
+				<p>
+				  Nam libero tempore cum vulputate id est id, pretium semper enim.
+				  Morbi viverra congue nisi vel pulvinar posuere sapien eros.
+				</p>
+			  </div>
+			  <div class="col-md-4 footer__news mb-3 mb-md-0">
+				<h2>Lastest News</h2>
+				<p>
+				  <i class="fa fa-long-arrow-alt-right"></i>
+				  <span>Lorem ipsum neque vulputate</span>
+				</p>
+				<p>
+				  <i class="fa fa-long-arrow-alt-right"></i>
+				  <span>Lorem ipsum neque vulputate</span>
+				</p>
+				<p>
+				  <i class="fa fa-long-arrow-alt-right"></i>
+				  <span>Lorem ipsum neque vulputate</span>
+				</p>
+				<p>
+				  <i class="fa fa-long-arrow-alt-right"></i>
+				  <span>Lorem ipsum neque vulputate</span>
+				</p>
+				<p>
+				  <i class="fa fa-long-arrow-alt-right"></i>
+				  <span>Lorem ipsum neque vulputate</span>
+				</p>
+			  </div>
+			  <div class="col-md-4 footer__contact mb-3 mb-md-0">
+				<h2>Contact Info</h2>
+				<p>
+				  <i class="fa fa-map-marker"></i>
+				  <span>8088 USA, Honey block, New York City.</span>
+				</p>
+				<p>
+				  <i class="fa fa-envelope"></i>
+				  <span>info@example.com</span>
+				</p>
+				<p>
+				  <i class="fa fa-phone"></i>
+				  <span>+09187 8088 9436</span>
+				</p>
+			  </div>
+			</div>
+			<div class="row footer__form mt-md-5">
+			  <div class="col-md-5 col-lg-4">
+				<h2 class="text-left text-md-right">Sign up for our Newsletter</h2>
+			  </div>
+			  <div class="col-md-7 col-lg-8">
+				<input type="email" placeholder="Enter your email" />
+				<button class="btn btn-footer-submit text-white">SUBMIT</button>
+			  </div>
+			</div>
+		  </div>
+		</div>
+		<div class="copy-right py-3 text-center text-white">
+		  <p class="mb-0">
+			&copy; 2018 Instruction. All rights reserved | Design by
+			<span>W3layouts</span>
+		  </p>
+		</div>
+	  </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+</body>
+</html>

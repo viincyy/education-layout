@@ -1,0 +1,22 @@
+{
+  "name": "instruction_education",
+  "version": "1.0.0",
+  "description": "Instruction Education project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viincyy/Instruction_Education.git"
+  },
+  "keywords": [
+    "iep"
+  ],
+  "author": "viincyy <viincyy126@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/viincyy/Instruction_Education/issues"
+  },
+  "homepage": "https://github.com/viincyy/Instruction_Education#readme"
+}
